@@ -1,0 +1,57 @@
+.place {
+    width: 100%;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: auto;
+    gap: 48px 40px;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.19") format("woff2"),
+        url("../../fonts/Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../../fonts/Inter-Bold.woff2?v=3.19") format("woff2"),
+        url("../../fonts/Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../../fonts/Inter-Black.woff2?v=3.19") format("woff2"),
+        url("../../fonts/Inter-Black.woff?v=3.19") format("woff");
+}
+
+.place:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: 440px 456px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .place {
+        grid-template-columns: 340px 352px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .place {
+        grid-template-columns: 320px;
+    }
+}
