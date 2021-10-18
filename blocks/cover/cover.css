@@ -30,17 +30,17 @@
     max-width: 1184px;
     margin: 0 auto;
     padding: 0;
-    padding-bottom: 92px;
+    margin-bottom: 92px;
 }
 
 @media screen and (max-width: 960px) {
     .cover {
-        padding-bottom: 88px;
+        margin-bottom: 88px;
     }
 }
 
 @media screen and (max-width: 460px) {
     .cover {
-        padding-bottom: 64px;
+        margin-bottom: 64px;
     }
 }

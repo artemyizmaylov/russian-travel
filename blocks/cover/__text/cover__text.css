@@ -1,8 +1,7 @@
 .cover__text {
-    max-height: 250px;
-    width: 50%;
-    margin: auto;
+    width: 60%;
     position: absolute;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +9,13 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 100px;
+    bottom: 0;
+}
+
+@media screen and (max-width: 710px) {
+    .cover__text {
+        max-width: 250px;
+    }
 }
 
 @media screen and (max-width: 460px) {
