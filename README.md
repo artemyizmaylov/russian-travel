@@ -1,10 +1,5 @@
 # Проект: Путешествие по России
 
-### Обзор
-* Интро
-* Figma
-
-**Интро**
 Проект можно посмотреть на GitHub Pages:
 
 * [ССылка на проект](https://artemyizmaylov.github.io/russian-travel/index.html)
