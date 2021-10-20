@@ -2,7 +2,7 @@
 
 Проект можно посмотреть на GitHub Pages:
 
-* [ССылка на проект](https://artemyizmaylov.github.io/russian-travel/index.html)
+* [Сcылка на проект](https://artemyizmaylov.github.io/russian-travel/index.html)
 
 Это проект о путешествии по России.
 В Фигме размещен макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
