@@ -1,4 +1,8 @@
-.cover__overlay::before {
+.cover__link {
+    text-decoration-line: none;
+}
+
+.cover__link::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -7,6 +11,7 @@
     opacity: 30%;
 }
 
-.cover__overlay:hover::before {
+.cover__link:hover::before {
     opacity: 80%;
+    transition: 0.4s;
 }
