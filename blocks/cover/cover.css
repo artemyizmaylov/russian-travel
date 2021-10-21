@@ -2,7 +2,7 @@
     max-width: 1184px;
     position: relative;
     background-image: url('../../images/cover-bg.png');
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
